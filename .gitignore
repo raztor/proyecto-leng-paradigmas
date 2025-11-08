@@ -1,0 +1,21 @@
+.idea
+
+# Go build artifacts
+bin/
+dist/
+build/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Go cache and coverage
+**/.gocache/
+coverage*.txt
+*.coverprofile
+
+# Vendor directory (if ever generated)
+vendor/

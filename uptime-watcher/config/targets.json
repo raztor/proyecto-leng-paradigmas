@@ -1,0 +1,21 @@
+{
+  "targets": [
+    {
+      "id": "example-http",
+      "name": "Servicio HTTP de ejemplo",
+      "kind": "http",
+      "url": "https://example.org/",
+      "frequency": "30s",
+      "timeout": "5s"
+    },
+    {
+      "id": "local-tcp",
+      "name": "Puerto TCP local",
+      "kind": "tcp",
+      "host": "localhost",
+      "port": 5432,
+      "frequency": "1m",
+      "timeout": "3s"
+    }
+  ]
+}
